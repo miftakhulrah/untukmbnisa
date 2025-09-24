@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="@feelthisray - Script HTML by Feeldream Repl Co">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Surat Spesial Buat Kamu ✨</title>
+    <meta name="description" content="Script HTML Surat Spesial Untukmu.">
+    <meta property="og:title" content="Spesial Untukmu ✨">
+    <meta property="og:description" content="Aku Ada Surat Spesial Untukmu ✨">
+    <meta property="og:image" content="assets/images/wallpaper.jpg">
+    <meta property="og:image:alt" content="valentine">
+    <meta property="og:url" content="htmlku.com/suratbuatmu">
+    <meta property="og:type" content="website">
+
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Sriracha&family=Itim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .awalan {
+            display: inline-block;
+            padding: 12px 20px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            text-align: center;
+        }
+        .cover p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="cover">
+            <p>Sentuh untuk Mulai ✨</p>
+           <div class="awalan">
+             <label style="font-size:16px">Klik di Sini</label>
+           </div>
+        </div>
+    </div>
+  
+    <div id="bodyblur">
+        <img src="assets/images/wallpaper.jpg" id="wallpaper"/>
+        <div id="thisblur"></div>
+    </div>
+    
+    <audio src="assets/audio/thousand.mp3" id="linkmp3"></audio>
+    
+    <div id="envwrap" class="envlope-wrapper">
+        <div id="envelope" class="close">
+            <div class="wax-seal"></div>
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class="letter">
+                <div class="letter-corner corner-tl"></div>
+                <div class="letter-corner corner-br"></div>
+                <div class="message">
+                    <p>Hai Mb Nisa! 🩷</p>
+                    <p>......</p>
+                </div>
+            </div>
+            <div class="hearts">
+                <div class="heart a1"></div>
+                <div class="heart a2"></div>
+                <div class="heart a3"></div>
+            </div>
+            <div class="sparkles">
+                <div class="sparkle s1"></div>
+                <div class="sparkle s2"></div>
+                <div class="sparkle s3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="reset">
+        <button id="open">Buka Surat 🩷</button>
+    </div>
+    
+  <div class="stiker">
+    <img id="main-stiker" src="assets/images/cinta.gif" />
+    <img id="stikerAlt1" src="assets/images/terlope.gif" />
+  </div>
+  
+  <div class="container" id="container">
+    <p class="titleC"><b>Hai Mb Nisa... ✨</b></p>
+    <p class="messageC"></p>
+  </div>
+  
+  <div class="hidden">
+      <p id="pesanSurat1"><i class='fontAlt'>Ada sesuatu yang ingin aku sampaikan...</i></p>
+      <p id="pesanSurat2">Mungkin Mb Nisa sedikit kaget menerima surat ini, semoga tidak mengganggu. Sebenarnya sudah lama aku ingin mengungkapkan ini, sejak pertama kali kita bertemu waktu KKN dulu.<br><br>Entah Mb Nisa sadar atau tidak, sejak saat itu aku diam-diam mengagumimu. Caramu tersenyum, kebaikanmu, dan semangatmu itu... semuanya meninggalkan kesan yang mendalam buatku. Mengenalmu adalah salah satu hal terbaik selama KKN, dan secara tidak langsung, Mb Nisa sudah menjadi sumber penyemangatku. 🫠</p>
+      <p id="pesanSurat3">Aku tidak berharap apa-apa, hanya ingin Mb Nisa tahu ini.<br><i class='fontAlt'>Semoga hari-harimu selalu indah ya!</i><br><br>Miftakhul Rahman</p>
+  </div>
+  
+    <div id="scontainer">
+        <div class="swrapper">
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
